@@ -1,0 +1,43 @@
+"A user"
+type User {
+  "An auto-generated UUID v4, example: `adbddd60-8598-4442-b76e-adb1b7fb4999`"
+  id: ID!
+  "The uid of the User, example: `jd1234`"
+  uid: String
+  "The first name of the User, example: `John`"
+  firstName: String
+  "The last name of the User, example: `Doe`"
+  lastName: String
+  "The email address of the User, example: `jd1234@example.com`"
+  email: String
+  "The date the User was created, example: `2022-06-27T12:14:01.157Z`"
+  createdAt: DateTime
+  "The date the User was updated, example: `2022-06-27T12:14:01.157Z`"
+  updatedAt: DateTime
+}
+
+"Input for adding a User"
+input UserInput {
+  "The uid for the User, example: `jd1234`"
+  uid: String!
+  "The first name for the User, example: `John`"
+  firstName: String!
+  "The last name for the User, example: `Doe`"
+  lastName: String!
+  "The email for the User, example: `jd1234@example.com`"
+  email: String!
+}
+
+"A GraphQL query is used to fetch data"
+type Query {
+  "Returns an array of all Users"
+  users: [User]
+  "Returns one User"
+  user(id: ID!): User
+}
+
+"A GraphQL mutation is used to modify data"
+type Mutation {
+  "Adds a User"
+  addUser(input: UserInput): User
+}

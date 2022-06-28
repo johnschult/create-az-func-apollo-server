@@ -1,0 +1,30 @@
+{
+  "name": "create-az-func-apollo-server",
+  "version": "0.1.0",
+  "description": "Creates an Azure Function Apollo Server",
+  "bin": {
+    "create-az-func-apollo-server": "./bin/cli.js"
+  },
+  "author": "John Schult <js798p@att.com>",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_NO_WARNINGS=1 node ./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "execa": "^6.1.0",
+    "inquirer": "^9.0.0",
+    "listr": "^0.14.3",
+    "lodash": "^4.17.21",
+    "template-file": "^6.0.1"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.20.0"
+  }
+}

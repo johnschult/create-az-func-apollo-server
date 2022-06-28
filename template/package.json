@@ -1,0 +1,30 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "private": "true",
+  "scripts": {
+    "start": "func host start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "@graphql-tools/schema": "^8.4.0",
+    "apollo-server-azure-functions": "^3.6.2",
+    "config": "^3.3.7",
+    "datasource-sql": "^1.6.0",
+    "graphql": "^16.3.0",
+    "graphql-scalars": "^1.17.0",
+    "knex": "^2.1.0",
+    "knex-stringcase": "^1.4.6",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.1",
+    "require-context": "^1.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0"
+  },
+  "volta": {
+    "node": "16.15.1"
+  }
+}

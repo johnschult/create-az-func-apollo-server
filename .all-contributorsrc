@@ -1,0 +1,25 @@
+{
+  "projectName": "create-az-func-apollo-server",
+  "projectOwner": "johnschult",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "johnschult",
+      "name": "John Schult",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9453?v=4",
+      "profile": "https://github.com/johnschult",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
