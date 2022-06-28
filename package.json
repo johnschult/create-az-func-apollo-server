@@ -6,7 +6,7 @@
     "create-az-func-apollo-server": "./bin/cli.js"
   },
   "author": "John Schult <js798p@att.com>",
-  "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "NODE_NO_WARNINGS=1 node ./index.js"
